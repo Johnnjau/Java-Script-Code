@@ -6,4 +6,6 @@ const rating = 4.5;
 const isCool = true;
 const x = null;
 const y = undefined;
-le
+let z;
+
+console.log(typeof name);
