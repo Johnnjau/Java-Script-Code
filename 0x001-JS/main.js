@@ -1,16 +1,14 @@
-//Arrays - Variables that hold multiple values
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    hobbies: ['reading', 'traveling', 'swimming'],
+    address: {
+        street: '123 Main St',
+        city: 'Anytown',
+        state: 'CA'
+    },
+    }
 
-const fruits = ["Apple", "Banana", "Orange"];
+console.log(person.firstName, person.lastName);  // Output: John
 
-fruits[3] = "grapes"; 
-
-fruits.push("mango"); //add to the end
-
-fruits.unshift("Strawberry"); //add to the front
-
-fruits.pop(); //remove last
-
-console.log(Array.isArray(fruits)); //check if array
-
-
-console.log(fruits);
