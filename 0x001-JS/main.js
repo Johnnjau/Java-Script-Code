@@ -10,4 +10,7 @@ fruits.unshift("Strawberry"); //add to the front
 
 fruits.pop(); //remove last
 
+console.log(Array.isArray(fruits)); //check if array
+
+
 console.log(fruits);
