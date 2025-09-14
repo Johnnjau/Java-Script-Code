@@ -1,11 +1,3 @@
-// String, Number, Boolean, Null, Undefined, Symbol
+const s = 'Hello World!';
 
-const name = 'John';
-const age = 30;
-
-// Concatenation
-console.log('My name is ' + name + ' and I am ' + age);
-// Template String
-const hello = `My name is ${name} and I am ${age}`;
-
-console.log(hello);
+console.log(s.length);
