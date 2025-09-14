@@ -1,3 +1,5 @@
-const s = 'techology, computers, it, code';
+//Arrays - Variables that hold multiple values
 
-console.log(s.split(''));
+const fruits = ["Apple", "Banana", "Orange"];
+
+console.log(fruits);
