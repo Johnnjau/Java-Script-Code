@@ -12,3 +12,4 @@ const person = {
 
 console.log(person.firstName, person.lastName);  // Output: John
 
+console.log(person.hobbies[1]);  // Output: traveling
