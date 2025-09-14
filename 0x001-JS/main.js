@@ -1,3 +1,3 @@
 const s = 'Hello World!';
 
-console.log(s.toLowerCase());
+console.log(s.split(''));
