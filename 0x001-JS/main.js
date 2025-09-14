@@ -13,3 +13,6 @@ const person = {
 console.log(person.firstName, person.lastName);  // Output: John
 
 console.log(person.hobbies[1]);  // Output: traveling
+
+const { street, city } = person.address;
+console.log(street, city);  // Output: 123 Main St Anytown
