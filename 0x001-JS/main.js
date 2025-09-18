@@ -4,5 +4,7 @@ const todos = [
   { id: 3, title: 'Read a book', completed: false },
 ];
 
-const todoJSON = JSON.stringify(todos);
-console.log(todoJSON);
+// FOR loop
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
+}
