@@ -4,4 +4,5 @@ const todos = [
   { id: 3, title: 'Read a book', completed: false },
 ];
 
-console.log(todos);
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
