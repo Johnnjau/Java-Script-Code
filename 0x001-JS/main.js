@@ -6,5 +6,5 @@ const todos = [
 
 // FOR loop
 for (let i = 0; i <= 10; i++) {
-  console.log(i);
+  console.log(`For Loop Number: ${i}`);
 }
