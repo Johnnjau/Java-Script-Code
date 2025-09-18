@@ -4,7 +4,14 @@ const todos = [
   { id: 3, title: 'Read a book', completed: false },
 ];
 
-// FOR loop
+// For loop
 for (let i = 0; i <= 10; i++) {
   console.log(`For Loop Number: ${i}`);
+}
+
+// While loop
+let i = 0;
+while (i <= 10) {
+  console.log(`While Loop Number: ${i}`);
+  i++;
 }
