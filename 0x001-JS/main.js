@@ -1,14 +1,7 @@
-const person = {
-    firstName: 'John',
-    lastName: 'Doe',
-    age: 30,
-    hobbies: ['reading', 'traveling', 'swimming'],
-    address: {
-        street: '123 Main St',
-        city: 'Anytown',
-        state: 'CA'
-    },
-}
+const todos = [
+  { id: 1, title: 'Buy groceries', completed: false },
+  { id: 2, title: 'Walk the dog', completed: true },
+  { id: 3, title: 'Read a book', completed: false },
+];
 
-person.email = 'john@gmail.com';
-console.log(person);
+console.log(todos);
