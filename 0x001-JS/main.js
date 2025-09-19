@@ -5,8 +5,8 @@ const todos = [
 ];
 
 // forEach, map, filter
-const todoTitle = todos.map(function(todo) {
-  return todo.title;
+const todoCompleted = todos.filter(function(todo) {
+  return todo.completed === false;
 });
 
-console.log(todoTitle);
+console.log(todoCompleted);
