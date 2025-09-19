@@ -7,6 +7,8 @@ const todos = [
 // forEach, map, filter
 const todoCompleted = todos.filter(function(todo) {
   return todo.completed === false;
-});
+}).map(function(todo) { 
+  return todo.title;
+})
 
 console.log(todoCompleted);
