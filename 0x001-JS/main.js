@@ -5,6 +5,6 @@ const todos = [
 ];
 
 // forEach, map, filter
-todos.forEach(function(todo) {
+todos.map(function(todo) {
   console.log(todo.title);
 });
